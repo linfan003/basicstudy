@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/basicclass/basicclass.iml" filepath="$PROJECT_DIR$/basicclass/basicclass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basicdatastructure/basicdatastructure.iml" filepath="$PROJECT_DIR$/basicdatastructure/basicdatastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basicstudy.iml" filepath="$PROJECT_DIR$/basicstudy.iml" />
+    </modules>
+  </component>
+</project>
