@@ -44,8 +44,8 @@ public class Double1Test {
      */
     @Test
     public void compare3() {
-        Double double1 = new Double( 1.0000000000000001101);
-        Double double2 = new Double( 1.0000000000000001102);
+        Double double1 = new Double( 1.00000000000000001101);
+        Double double2 = new Double( 1.00000000000000001102);
         System.out.println(double1.hashCode());
         System.out.println(double2.hashCode());
         boolean equals = double1.equals(double2);
