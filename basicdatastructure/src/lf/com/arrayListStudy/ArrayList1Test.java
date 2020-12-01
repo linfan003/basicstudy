@@ -47,7 +47,8 @@ public class ArrayList1Test {
         print(list);
     }
     /**
-     * 错误
+     * 会造成异常
+     *  删除 末尾 的元素，会造成 modCount 和 expectedModCount 的不一致导致异常抛出。
      */
     @Test
     public  void remove2() {
@@ -71,10 +72,6 @@ public class ArrayList1Test {
         }
         print(list);
     }
-    /**
-     * 会造成异常
-     *  删除 末尾 的元素，会造成 modCount 和 expectedModCount 的不一致导致异常抛出。
-     */
     @Test
     public  void remove4() {
         for(int i = 0; i < list.size(); i++){
